@@ -2,21 +2,11 @@
 
 Make AI agents reliable, secure and affordable in production. We teach operate.
 
-**Free · Live · 30 minutes · Mondays and Thursdays, 7:30 PM Central** · with Dr. Emmanuel Naweji ([Transformed 2 Succeed](https://transformed2succeed.com))
+**Free · Live · 30 minutes · Mondays and Thursdays, 7:30 PM Central** · with Emmanuel N. ([Transformed 2 Succeed](https://transformed2succeed.com))
 
 ### [Register free on Zoom](https://us06web.zoom.us/meeting/register/fT235rLjQaihJYrWj2_vjw)
 
 Register once and you're in for every session. Zoom emails you the join link and reminders. Bring your questions: every session ends with live Q&A.
-
-## When this course is live
-
-- Thu, Nov 26, 2026 · 7:30–8:00 PM Central _(may be cancelled for Thanksgiving)_
-- Thu, Dec 24, 2026 · 7:30–8:00 PM Central _(may be cancelled for Christmas Eve)_
-- Thu, Jan 21, 2027 · 7:30–8:00 PM Central
-- Thu, Feb 18, 2027 · 7:30–8:00 PM Central
-- Thu, Mar 18, 2027 · 7:30–8:00 PM Central
-- Thu, Apr 15, 2027 · 7:30–8:00 PM Central
-- Thu, May 13, 2027 · 7:30–8:00 PM Central
 
 ## Watch the recordings
 
@@ -68,16 +58,16 @@ python3 run_agent.py --input samples/normal.json --verbose
 
 A different course every session. The rotation repeats every 4 weeks, so if you miss one, it comes back around.
 
-| Week | Day | Course | First session |
-|---|---|---|---|
-| Week 1 | Monday | [Linux for AI-ML Systems](https://github.com/Here2ServeU/live-linux-for-ai-ml) | Mon, Nov 2, 2026 |
-| Week 1 | Thursday | [Python for AI-ML](https://github.com/Here2ServeU/live-python-for-ai-ml) | Thu, Nov 5, 2026 |
-| Week 2 | Monday | [Zero to AI-ML Systems Engineering](https://github.com/Here2ServeU/live-zero-to-ai-ml) | Mon, Nov 9, 2026 |
-| Week 2 | Thursday | [DevOps for AI-ML Systems](https://github.com/Here2ServeU/live-devops-for-ai-ml) | Thu, Nov 12, 2026 |
-| Week 3 | Monday | [SRE for AI-ML Systems](https://github.com/Here2ServeU/live-sre-for-ai-ml) | Mon, Nov 16, 2026 |
-| Week 3 | Thursday | [GPU Optimization for AI-ML Systems](https://github.com/Here2ServeU/live-gpu-optimization-for-ai-ml) | Thu, Nov 19, 2026 |
-| Week 4 | Monday | [FinOps for AI-ML Systems](https://github.com/Here2ServeU/live-finops-for-ai-ml) | Mon, Nov 23, 2026 |
-| Week 4 | Thursday | **AI Agent Operations** (you are here) | Thu, Nov 26, 2026 |
+| Week | Day | Course |
+|---|---|---|
+| Week 1 | Monday | [Linux for AI-ML Systems](https://github.com/Here2ServeU/live-linux-for-ai-ml) |
+| Week 1 | Thursday | [Python for AI-ML](https://github.com/Here2ServeU/live-python-for-ai-ml) |
+| Week 2 | Monday | [Zero to AI-ML Systems Engineering](https://github.com/Here2ServeU/live-zero-to-ai-ml) |
+| Week 2 | Thursday | [DevOps for AI-ML Systems](https://github.com/Here2ServeU/live-devops-for-ai-ml) |
+| Week 3 | Monday | [SRE for AI-ML Systems](https://github.com/Here2ServeU/live-sre-for-ai-ml) |
+| Week 3 | Thursday | [GPU Optimization for AI-ML Systems](https://github.com/Here2ServeU/live-gpu-optimization-for-ai-ml) |
+| Week 4 | Monday | [FinOps for AI-ML Systems](https://github.com/Here2ServeU/live-finops-for-ai-ml) |
+| Week 4 | Thursday | **AI Agent Operations** (you are here) |
 
 ## Want the full course?
 
