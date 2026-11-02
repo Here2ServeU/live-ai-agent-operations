@@ -16,9 +16,20 @@ Missed a session or want to watch it again? Recordings are added here after each
 |---|---|
 | _Coming after the first session_ | |
 
-## Download the slides
+## Set up your lab (do this before you join)
 
-**[08_AI_Agent_Operations_Free_Live_Session.pdf](slides/08_AI_Agent_Operations_Free_Live_Session.pdf)** (PDF)
+Want to code along? Follow **[SETUP.md](SETUP.md)**. It takes about 15 minutes, once, and works on any computer (or right in your browser with GitHub Codespaces).
+
+## Downloads
+
+Everything you need is in the [`downloads`](downloads) folder:
+
+| File | What it is |
+|---|---|
+| [08_AI_Agent_Operations_Free_Live_Session.pdf](downloads/08_AI_Agent_Operations_Free_Live_Session.pdf) | The session slides (PDF) |
+| [08_AI_Agent_Operations_SETUP_GUIDE.pdf](downloads/08_AI_Agent_Operations_SETUP_GUIDE.pdf) | The setup guide (PDF version of SETUP.md) |
+| [agent-cost-control on GitHub](https://github.com/Here2ServeU/agent-cost-control) | The free lab repo (clone it, then follow SETUP.md) |
+
 
 ## What you'll learn
 
@@ -34,16 +45,7 @@ Missed a session or want to watch it again? Recordings are added here after each
 
 ## Try it yourself
 
-Get the hands-on labs here: [first-production-agent](https://github.com/Here2ServeU/first-production-agent) and [agent-cost-control](https://github.com/Here2ServeU/agent-cost-control)
-
-**Module 1 · Your First Production Agent**: Run the ticket-triage agent for free
-
-```bash
-git clone https://github.com/Here2ServeU/first-production-agent
-cd first-production-agent
-cd modules/module-1/scripts
-python3 run_agent.py --input samples/normal.json --sim
-```
+To get the lab files, clone the free, public [agent-cost-control](https://github.com/Here2ServeU/agent-cost-control) repo (runs offline, no API key; see [SETUP.md](SETUP.md)).
 
 **Module 2 · The Agent Cost Problem**: Price one healthy run
 
