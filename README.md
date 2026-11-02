@@ -2,18 +2,35 @@
 
 Make AI agents reliable, secure and affordable in production. We teach operate.
 
-Free, live, 30-minute sessions with **Dr. Emmanuel Naweji** ([Transformed 2 Succeed](https://transformed2succeed.com)).
-This course is presented on **Week 4, Thursday at 7:30 PM Central** of a 4-week rotation (8 courses, every Monday and Thursday).
-This repo holds the slides, the recording of every live session, and the notes and links from each one.
+**Free · Live · 30 minutes · Mondays and Thursdays, 7:30 PM Central** · with Dr. Emmanuel Naweji ([Transformed 2 Succeed](https://transformed2succeed.com))
 
-## Session recordings
+### [Register free on Zoom](https://us06web.zoom.us/meeting/register/fT235rLjQaihJYrWj2_vjw)
 
-| Date | Recording | Notes |
-|---|---|---|
-| _First session coming soon_ | | |
-<!-- sessions:end -->
+Register once and you're in for every session. Zoom emails you the join link and reminders. Bring your questions: every session ends with live Q&A.
 
-## What the session covers
+## When this course is live
+
+- Thu, Nov 26, 2026 · 7:30–8:00 PM Central _(may be cancelled for Thanksgiving)_
+- Thu, Dec 24, 2026 · 7:30–8:00 PM Central _(may be cancelled for Christmas Eve)_
+- Thu, Jan 21, 2027 · 7:30–8:00 PM Central
+- Thu, Feb 18, 2027 · 7:30–8:00 PM Central
+- Thu, Mar 18, 2027 · 7:30–8:00 PM Central
+- Thu, Apr 15, 2027 · 7:30–8:00 PM Central
+- Thu, May 13, 2027 · 7:30–8:00 PM Central
+
+## Watch the recordings
+
+Missed a session or want to watch it again? Recordings are added here after each live session.
+
+| Date | Recording |
+|---|---|
+| _Coming after the first session_ | |
+
+## Download the slides
+
+**[08_AI_Agent_Operations_Free_Live_Session.pdf](slides/08_AI_Agent_Operations_Free_Live_Session.pdf)** (PDF)
+
+## What you'll learn
 
 1. **Your First Production Agent**: Build a working agent, then see the five things a happy-path demo never tests.
 2. **The Agent Cost Problem**: Measure, forecast and bound what your agent really costs, before it reaches the CFO.
@@ -27,7 +44,7 @@ This repo holds the slides, the recording of every live session, and the notes a
 
 ## Try it yourself
 
-Clone the course lab repo: [first-production-agent](https://github.com/Here2ServeU/first-production-agent) · [agent-cost-control](https://github.com/Here2ServeU/agent-cost-control)
+Get the hands-on labs here: [first-production-agent](https://github.com/Here2ServeU/first-production-agent) and [agent-cost-control](https://github.com/Here2ServeU/agent-cost-control)
 
 **Module 1 · Your First Production Agent**: Run the ticket-triage agent for free
 
@@ -37,6 +54,7 @@ cd first-production-agent
 cd modules/module-1/scripts
 python3 run_agent.py --input samples/normal.json --sim
 ```
+
 **Module 2 · The Agent Cost Problem**: Price one healthy run
 
 ```bash
@@ -46,37 +64,23 @@ python3 run_agent.py --input samples/normal.json --verbose
 ... | python3 price_run.py --input-rate 0.80 --output-rate 4.00
 ```
 
-## Slides
+## All free live sessions
 
-[`slides/08_AI_Agent_Operations_Free_Live_Session.pptx`](slides/08_AI_Agent_Operations_Free_Live_Session.pptx): the presenter deck, with full speaker notes.
+A different course every session. The rotation repeats every 4 weeks, so if you miss one, it comes back around.
 
-## Free live session schedule (Mondays and Thursdays, 7:30 PM Central)
+| Week | Day | Course | First session |
+|---|---|---|---|
+| Week 1 | Monday | [Linux for AI-ML Systems](https://github.com/Here2ServeU/live-linux-for-ai-ml) | Mon, Nov 2, 2026 |
+| Week 1 | Thursday | [Python for AI-ML](https://github.com/Here2ServeU/live-python-for-ai-ml) | Thu, Nov 5, 2026 |
+| Week 2 | Monday | [Zero to AI-ML Systems Engineering](https://github.com/Here2ServeU/live-zero-to-ai-ml) | Mon, Nov 9, 2026 |
+| Week 2 | Thursday | [DevOps for AI-ML Systems](https://github.com/Here2ServeU/live-devops-for-ai-ml) | Thu, Nov 12, 2026 |
+| Week 3 | Monday | [SRE for AI-ML Systems](https://github.com/Here2ServeU/live-sre-for-ai-ml) | Mon, Nov 16, 2026 |
+| Week 3 | Thursday | [GPU Optimization for AI-ML Systems](https://github.com/Here2ServeU/live-gpu-optimization-for-ai-ml) | Thu, Nov 19, 2026 |
+| Week 4 | Monday | [FinOps for AI-ML Systems](https://github.com/Here2ServeU/live-finops-for-ai-ml) | Mon, Nov 23, 2026 |
+| Week 4 | Thursday | **AI Agent Operations** (you are here) | Thu, Nov 26, 2026 |
 
-| Week | Day | Course |
-|---|---|---|
-| Week 1 | Monday | [Linux for AI-ML Systems](https://github.com/Here2ServeU/live-linux-for-ai-ml) |
-| Week 1 | Thursday | [Python for AI-ML](https://github.com/Here2ServeU/live-python-for-ai-ml) |
-| Week 2 | Monday | [Zero to AI-ML Systems Engineering](https://github.com/Here2ServeU/live-zero-to-ai-ml) |
-| Week 2 | Thursday | [DevOps for AI-ML Systems](https://github.com/Here2ServeU/live-devops-for-ai-ml) |
-| Week 3 | Monday | [SRE for AI-ML Systems](https://github.com/Here2ServeU/live-sre-for-ai-ml) |
-| Week 3 | Thursday | [GPU Optimization for AI-ML Systems](https://github.com/Here2ServeU/live-gpu-optimization-for-ai-ml) |
-| Week 4 | Monday | [FinOps for AI-ML Systems](https://github.com/Here2ServeU/live-finops-for-ai-ml) |
-| Week 4 | Thursday | **AI Agent Operations** (this repo) |
-
-## Want all of it?
+## Want the full course?
 
 The membership gives you **all 8 courses, every module and every lab, for $49/month**, plus a live session every month where we build something together.
-Join at **https://transformed2succeed.com**.
 
----
-
-### For the presenter: logging a session
-
-After each live session, run:
-
-```bash
-bash scripts/new-session.sh 2026-11-03 "https://link-to-the-recording"
-git add -A && git commit -m "Session 2026-11-03" && git push
-```
-
-This creates `sessions/2026-11-03.md` from the template (fill in the Q&A and links) and adds a row to the recordings table above.
+**[Join at transformed2succeed.com](https://transformed2succeed.com)**
